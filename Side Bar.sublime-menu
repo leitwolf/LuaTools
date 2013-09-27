@@ -1,0 +1,16 @@
+[{
+	"caption": "LuaTools",
+	"id": "lua_tools",
+	"children": [
+
+		{
+			"caption": "New Lua File",
+			"id": "new_lua_file",
+			"command": "lua_tools_new_file",
+			"args": {
+				"dirs": []
+			}
+		}
+
+	]
+}]
