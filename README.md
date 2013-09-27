@@ -1,17 +1,16 @@
 LuaTools
 ========
-# LuaTools
 
-## Description
+# Description
 
 A lua develop plugin for sublime text 2/3.
 
-#Features
+##Features
 
-*build system
-*system api completions support(lua5.1/5.2)
-*create new lua file with template
-*quick-cocos2d-x api support
+-build system
+-system api completions support(lua5.1/5.2)
+-create new lua file with template
+-quick-cocos2d-x api support
 
 ## Installation
 
