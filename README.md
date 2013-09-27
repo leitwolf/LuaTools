@@ -7,10 +7,10 @@ A lua develop plugin for sublime text 2/3.
 
 ##Features
 
--build system
--system api completions support(lua5.1/5.2)
--create new lua file with template
--quick-cocos2d-x api support
+ * build system
+ * system api completions support(lua5.1/5.2)
+ * create new lua file with template
+ * quick-cocos2d-x api support
 
 ## Installation
 
@@ -40,7 +40,7 @@ Download .zip source file, then unzip it, clone "LuaTools" folder into the Subli
     }
 }
 ```
-It appear on side bar context menu.
+It appear on the side bar context menu.
 
 ### quick-cocos2d-x(version 2013-8-27)
 ```
@@ -48,5 +48,5 @@ It appear on side bar context menu.
     "enable_quick_cocos2d_x":false
 }
 ```
-true will be to use.
+####true will be to use.
 I will update this when a new version release.
