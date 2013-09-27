@@ -1,7 +1,7 @@
 LuaTools
 ========
 
-# Description
+## Description
 
 A lua develop plugin for sublime text 2/3.
 
@@ -15,7 +15,7 @@ A lua develop plugin for sublime text 2/3.
 ## Installation
 
 Download .zip source file, then unzip it, clone "LuaTools" folder into the SublimeText ```Packages``` directory.  A restart of SublimeText might be nessecary to complete the install.
-```
+
 
 ## Usage
 
