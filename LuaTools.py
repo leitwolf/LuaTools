@@ -2,7 +2,6 @@ import sublime
 import sublime_plugin
 import functools
 import os
-import re
 import datetime
 
 def isST3():
@@ -46,23 +45,7 @@ def settingsChanged():
             old=os.path.join(dir,oldname)
             new=os.path.join(dir,newname)
             if os.path.exists(old):
-                os.rename(old,new)
-    # quick_cocos2d_x
-    enable_quick_cocos2d_x=settings.get("enable_quick_cocos2d_x")
-    dir=os.path.join(sublime.packages_path(),PACKAGE_NAME,LIB_PATH,"quick-cocos2d-x-api")
-    if os.path.isdir(dir):
-        for dirpath, indirs, filenames in os.walk(dir):
-            for f in filenames:
-                oldPath=os.path.join(dirpath, f)
-                if enable_quick_cocos2d_x:
-                    if re.match(".+-nouse$",f):
-                        path=os.path.join(dirpath, re.sub("-nouse","",f))
-                        os.rename(oldPath,path)
-                else:
-                    if re.match(".+sublime-completions$",f) or re.match(".+sublime-snippet$",f):
-                        path=os.path.join(dirpath, f+"-nouse")
-                        os.rename(oldPath,path)
-                
+                os.rename(old,new)               
                 
     
 
